@@ -1,5 +1,4 @@
 #include <iostream>
-#include <vector>
 
 using namespace std;
 
@@ -45,11 +44,6 @@ public:
     void adauga(int element) {
         int cont = 0;
         int* vector2;
-        // for(int i = 0; i < size; i++) {
-        //     if(vector[i] == element) {
-        //         cont = 1;
-        //     }
-        // }
         vector2 = new int[size];
         for(int i = 0; i < size; i++) {
             vector2[i] = vector[i];
